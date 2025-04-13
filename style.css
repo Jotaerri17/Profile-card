@@ -1,0 +1,57 @@
+body {
+    background: #343434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+  }
+  
+  .card {
+    background: hsl(0, 0%, 10%);
+    border-radius: 16px;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+    padding: 2rem;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 32px rgba(0,0,0,0.2);
+  }
+  
+  .perfil {
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    margin: 0.5rem 0 0.2rem;
+    color: #666;
+  }
+  
+  .cargo {
+    color: #666;
+    font-size: 1.0rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .desc {
+    color: #666;
+    font-size: 0.99rem;
+    margin-bottom: 1rem;
+  }
+  
+  .social a {
+    margin: 0 9px;
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+  
+  .social a:hover {
+    transform: scale(1.4);
+  }
